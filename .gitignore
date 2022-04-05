@@ -1,4 +1,4 @@
 node_modules/
 .vscode/
-.github/workflows/audit.yml
-.github/workflows/sucess.yml
+.github\workflows\audit.yml
+.github\workflows\sucess.yml
