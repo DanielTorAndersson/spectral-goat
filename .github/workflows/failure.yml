@@ -11,4 +11,4 @@ jobs:
       - name: Spectral Install
         run: curl -L "https://get.spectralops.io/latest/x/sh?dsn=$SPECTRAL_DSN" | sh
       - name: Spectral Scan
-        run: $HOME/.spectral/spectral scan
+        run: $HOME/.spectral/spectral scan --include-tags base,audit,iac
